@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.container {
+  width: 400px;
+}
+
+.times,
+.card-footer,
+.volume-container,
+.list-group-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-group-item:hover {
+  cursor: pointer;
+}
+
+#volume {
+  cursor: pointer;
+}
+
+li.playing {
+  background-color: #0b5eb7;
+  color: #fff;
+}
